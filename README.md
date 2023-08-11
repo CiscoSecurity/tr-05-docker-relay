@@ -16,7 +16,7 @@ easily packaged and deployed in docker container.
 
 ## Rationale
 
-- We need an application that will translate API requests from XDR Threat Response to the third-party integration, and vice versa.
+- We need an application that will translate API requests from Cisco XDR to the third-party integration and vice versa.
 - We need an application that can be completely self-contained within a virtualized container using Docker.
 
 ## Testing (Optional)
