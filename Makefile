@@ -11,9 +11,9 @@ build: stop
 flake: black
 	flake8 code/
 test: flake
-	cd code; coverage run --source api/ -m pytest --verbose tests/unit/ && coverage report; cd -
+	cd code; coverage run --source api/ -m pytest --verbose tests/unit/ && coverage report --fail-under=85; cd -
 test_lf:
-	cd code; coverage run --source api/ -m pytest --verbose -vv --lf tests/unit/ && coverage report; cd -
+	cd code; coverage run --source api/ -m pytest --verbose -vv --lf tests/unit/ && coverage report --fail-under=85; cd -
 scout:
 	docker scout cves $(NAME)
 stop:
