@@ -4,7 +4,7 @@ PORT:="9090"
 all: test build
 
 black:
-	black code/ -l 79 -t py39 --skip-magic-trailing-comma --exclude=payloads_for_tests.py
+	black code/ -t py311 --skip-magic-trailing-comma --exclude=payloads_for_tests.py
 build: stop
 	docker build -q -t $(NAME) .;
 	docker run -dp $(PORT):$(PORT) --name $(NAME) $(NAME)
