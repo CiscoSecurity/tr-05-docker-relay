@@ -1,3 +1,3 @@
-@Library('softserve-jenkins-library@api-pipeline-adjiustments') _
+@Library('softserve-jenkins-library@main') _
 
-startPipeline('tr-05-docker-relay', [3.9])
+startPipeline('', [3.11], 3.18)
