@@ -1,0 +1,7 @@
+version: 2
+updates:
+  - package-ecosystem: "pip"
+    schedule:
+      interval: "weekly"
+    pull-request-branch-name:
+      separator: "-"
