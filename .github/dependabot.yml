@@ -1,5 +1,6 @@
 version: 2
 updates:
+  directory: "/code"
   - package-ecosystem: "pip"
     schedule:
       interval: "weekly"
