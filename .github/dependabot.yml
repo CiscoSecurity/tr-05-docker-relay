@@ -1,7 +1,7 @@
 version: 2
 updates:
-  directory: "/code"
   - package-ecosystem: "pip"
+    directory: "/code"
     schedule:
       interval: "weekly"
     pull-request-branch-name:
