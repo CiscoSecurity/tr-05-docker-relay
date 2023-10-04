@@ -5,7 +5,7 @@ verify_ssl = true
 
 [packages]
 cryptography = "==41.0.4"
-Flask = "==2.3.3"
+Flask = "==3.0.0"
 marshmallow = "==3.20.1"
 PyJWT = "==2.8.0"
 requests = "==2.31.0"
